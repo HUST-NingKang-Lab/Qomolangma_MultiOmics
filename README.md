@@ -2,6 +2,9 @@
 Computational framework and analysis code for the Qomolangma Multi-Omics project
 
 ## 📌 Project Overview
+<p align="center">
+  <img src="./graphical_abstract/graphical_abstract.png" width="80%" alt="Qomolangma Multi-Omics Overview">
+</p>
 This study provides a high-resolution, longitudinal multi-omics atlas tracking 13 Mount Qomolangma mountaineers across 12 high-density timepoints. The cohort features a strategic generational stratification consisting of a controlled younger cohort (n = 11) serving as a standardized baseline and a rare sub-cohort of elderly individuals over the age of 60 (n = 2) who successfully summited the 8,848.86-meter peak. 
 
 By integrating 348 longitudinal microbiome profiles spanning three distinct mucosal and peripheral body sites (oral, gut, skin) with 89 paired plasma metabolomic and 89 lipidomic profiles, alongside multi-dimensional host physiological remodeling, this project establishes the computational framework to decipher host-microbe co-adaptation under extreme physiological stress.
@@ -82,14 +85,22 @@ inux
 Clone this repository and install all required framework software and computational dependencies defined in `requirements.txt`:
 
 ```bash
-git clone [https://github.com/HUST-NingKang-Lab/QOMOLANGMA_MULTIOMICS.git](https://github.com/HUST-NingKang-Lab/QOMOLANGMA_MULTIOMICS.git)
+git clone [https://github.com/HUST-NingKang-Lab/Qomolangma_MultiOmics.git](https://github.com/HUST-NingKang-Lab/Qomolangma_MultiOmics.git)
 cd QOMOLANGMA_MULTIOMICS
 pip install -r requirements.txt
 ```
 
 
-## 📨 Citation and Contact
-If you use this repository or these custom modeling scripts in your research, please cite our manuscript:
+## 📨 Contact
 
-Manuscript: Multi-omics landscape reveals age-dependent microbial co-adaptation and metabolic dynamics in Qomolangma mountaineers. (2026)
-Lead Contact: Kang Ning (ningkang@hust.edu.cn), Department of Bioinformatics and Systems Biology, Huazhong University of Science and Technology.
+For any inquiries regarding the dynamic Bayesian counterfactual framework, multi-omics network modeling, or data access requests, please reach out to the corresponding authors:
+
+*   **Kang Ning**
+    *   Huazhong University of Science and Technology (HUST)
+    *   📧 Email: ningkang@hust.edu.cn
+*   **Xiaosen Jiang**
+    *   BGI Genomics
+    *   📧 Email: jiangxiaosen@genomics.cn
+*   **Minfeng Xiao**
+    *   BGI Research
+    *   📧 Email: xiaominfeng@genomics.cn
