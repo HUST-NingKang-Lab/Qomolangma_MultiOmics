@@ -3,7 +3,7 @@ Computational framework and analysis code for the Qomolangma Multi-Omics project
 
 ## 📌 Project Overview
 <p align="center">
-  <img src="./graphical_abstract/graphical_abstract.png" width="80%" alt="Qomolangma Multi-Omics Overview">
+  <img src="./graphical_abstract.png" width="80%" alt="Qomolangma Multi-Omics Overview">
 </p>
 This study provides a high-resolution, longitudinal multi-omics atlas tracking 13 Mount Qomolangma mountaineers across 12 high-density timepoints. The cohort features a strategic generational stratification consisting of a controlled younger cohort (n = 11) serving as a standardized baseline and a rare sub-cohort of elderly individuals over the age of 60 (n = 2) who successfully summited the 8,848.86-meter peak. 
 
