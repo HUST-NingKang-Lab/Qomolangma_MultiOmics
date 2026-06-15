@@ -76,6 +76,16 @@ Integrates the data-driven microbiome-metabolome-phenotype axis. Normalizes taxo
 
 ---
 
+## 🛠️ Core Computational Pipelines & Scripts
+| Directory | Key Script File | Core Functional |
+| :--- | :--- | :--- |
+| **03_bayesian_model** | `02_young_Bayesian.py` | Fited non-linear adaptive baselines using B-splines on the standardized younger cohort ($n=11$) to define the baseline "youth phenotype". |
+| **03_bayesian_model** | `03_counterfactual_predict.py` | Projected youth-based baselines onto elderly subjects ($n=2$) to establish a Dynamic Bayesian Counterfactual Framework , generating the Age Plasticity Index  |
+| **03_bayesian_model** | `04_4-GBA analysis.R` <br> `05_4-GBA and microbiome.R` | Implemented a Strict Directional Consistency Screening filter to isolate stable biomarkers, validating 4-guanidinobutanoic acid (4-GBA) as the definitive altitude resilience checkpoint. |
+| **04_difference_analysis** | `01Differential Microbiome Analysis.R` <br> `02_Differential Phenotype Analysis.R` <br> `03_Differential Metabolite Analysis.R`| Conducted temporal differential analysis of microbiome，metabolic and phenotypic profiles |
+| **05_multiomics_network** | `01.Elastic_project_KFold10/feature_selection.py main.py`| Executed an Elastic Net regression model merging $L_1$ and $L_2$ regularization penalties alongside 10-fold cross-validation to robustly screen stable features from log-transformed and CLR-transformed multi-omics layers |
+| **05_multiomics_network** | `02.RF_using_stable_features_selected_by_Elastic_kFold10/main.py` <br> `03.ElasticNet_using_features_selected_by_Elastic_KFold10`| Incorporated the identified stable multi-omics variables into a random forest ensemble model, and then use Spearman’s correlation analysis to identify the chains of correlations among the microbiome, metabolism, and phenotype. |
+
 ## 🚀 Installation & Quick Start
 
 ### Prerequisites
@@ -94,9 +104,11 @@ pip install -r requirements.txt
 ## 📨 Contact
 
 For any inquiries regarding the dynamic Bayesian counterfactual framework, multi-omics network modeling, or data access requests, please reach out to the corresponding authors:
-
+*   **Yuan Wang**
+    *   MA, School of Life Science and Technology, Huazhong University of Science & Technology
+    *   📧 Email: wangyuan0807@qq.com
 *   **Kang Ning**
-    *   Huazhong University of Science and Technology (HUST)
+    *   Professor, School of Life Science and Technology, Huazhong University of Science & Technology
     *   📧 Email: ningkang@hust.edu.cn
 *   **Xiaosen Jiang**
     *   BGI Genomics
