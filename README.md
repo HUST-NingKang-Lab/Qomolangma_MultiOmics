@@ -105,7 +105,7 @@ pip install -r requirements.txt
 
 For any inquiries regarding the dynamic Bayesian counterfactual framework, multi-omics network modeling, or data access requests, please reach out to the corresponding authors:
 *   **Yuan Wang**
-    *   MA, School of Life Science and Technology, Huazhong University of Science & Technology
+    *   Master's student, School of Life Science and Technology, Huazhong University of Science & Technology
     *   📧 Email: wangyuan0807@qq.com
 *   **Kang Ning**
     *   Professor, School of Life Science and Technology, Huazhong University of Science & Technology
