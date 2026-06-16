@@ -84,7 +84,7 @@ Integrates the data-driven microbiome-metabolome-phenotype axis. Normalizes taxo
 | **03_bayesian_model** | `04_4-GBA analysis.R` <br> `05_4-GBA and microbiome.R` | Implemented a Strict Directional Consistency Screening filter to isolate stable biomarkers, validating 4-guanidinobutanoic acid (4-GBA) as the definitive altitude resilience checkpoint. |
 | **04_difference_analysis** | `01Differential Microbiome Analysis.R` <br> `02_Differential Phenotype Analysis.R` <br> `03_Differential Metabolite Analysis.R`| Conducted temporal differential analysis of microbiome，metabolic and phenotypic profiles |
 | **05_multiomics_network** | `01.Elastic_project_KFold10/feature_selection.py main.py`| Executed an Elastic Net regression model merging $L_1$ and $L_2$ regularization penalties alongside 10-fold cross-validation to robustly screen stable features from log-transformed and CLR-transformed multi-omics layers |
-| **05_multiomics_network** | `02.RF_using_stable_features_selected_by_Elastic_kFold10/main.py` <br> `03.ElasticNet_using_features_selected_by_Elastic_KFold10`| Incorporated the identified stable multi-omics variables into a random forest ensemble model, and then use Spearman’s correlation analysis to identify the chains of correlations among the microbiome, metabolism, and phenotype. |
+| **05_multiomics_network** | `02.RF_using_stable_features/main.py` <br> `03.ElasticNet_using_features`| Incorporated the identified stable multi-omics variables into a random forest ensemble model, and then use Spearman’s correlation analysis to identify the chains of correlations among the microbiome, metabolism, and phenotype. |
 
 ## 🚀 Installation & Quick Start
 
